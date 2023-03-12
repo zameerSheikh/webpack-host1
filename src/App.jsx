@@ -5,6 +5,7 @@ import Header from "remote/Header";
 import Footer from "remote/Footer";
 
 import "./index.scss";
+import "./App.css";
 
 const App = () => (
   <div className="container">
