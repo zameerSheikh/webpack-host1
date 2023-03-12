@@ -7,7 +7,7 @@ import Footer from "remote/Footer";
 import "./index.scss";
 
 const App = () => (
-  <div>
+  <div className="container">
     <Header />
     <main>
       <h3>Host1</h3>
