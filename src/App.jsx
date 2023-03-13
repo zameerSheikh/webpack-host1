@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 
 import Header from "remote/Header";
 import Footer from "remote/Footer";
+import Dashboard from "remote/Dashboard";
 
 import "./index.scss";
 import "./App.css";
@@ -11,7 +12,7 @@ const App = () => (
   <div className="container">
     <Header />
     <main>
-      <h3>Host1</h3>
+      <Dashboard />
     </main>
     <Footer />
   </div>
